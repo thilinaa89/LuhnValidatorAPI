@@ -1,0 +1,6 @@
+@LuhnValidatorAPI_HostAddress = http://localhost:5072
+
+GET {{LuhnValidatorAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
