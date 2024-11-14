@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace LuhnValidatorAPI.Controllers
 {
     [ApiController]
+    [Route("api/[controller]")]
     public class LuhnValidatorController : ControllerBase
     {
         private readonly ILuhnValidator _luhnValidator;
